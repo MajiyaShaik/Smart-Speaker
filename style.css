@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat:wght@500&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    height: 15vh;
+    color: black;
+    background-color:wheat;
+    border: 5px solid brown;
+    padding-top: 1rem;
+    border-bottom: 5px solid sandybrown;
+}
+header ul{
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+}
+header ul li{
+    padding: 1rem;
+}
+header ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.i:hover{
+    box-shadow: 1px 0px 1px 0px brown;
+}
+body{
+    height: 100vh;
+    background-color: brown;
+    color: white;
+}
+main{
+    height: 85%;
+    display: flex;
+}
+main .left{
+    display: grid;
+    grid-template-rows: 76% auto;
+    grid-template-areas:"top"
+                        "bottom";
+    width: 40%;
+}
+main .top{
+    grid-area: top;
+}
+main .bottom{
+    grid-area: bottom;
+}
+.top p{
+    writing-mode: vertical-lr;
+}
+.top h1{
+    font-size: 3.7rem;
+}
+.bottom h3{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.bottom p{
+    font-weight: normal;
+}
+main .left .top{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+}
+main .left .top h1{
+          margin-left: 4rem;
+}
+main .left .bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    color: black;
+    position: relative;
+
+}
+main .left .bottom span{
+    position: absolute;
+    right: 0;
+    background-color: darkolivegreen;
+    padding: 0.8rem;
+    writing-mode: vertical-lr;
+    top: -40%;
+    font-weight:bold;
+}
+main .right{
+    display: grid;
+    grid-template-rows:70% auto;
+    grid-template-areas: "top1"
+                          "bottom1";
+    width: 60%;                      
+}
+main .top1{
+    grid-area: top1;
+}
+main .bottom1{
+    grid-area:bottom1;
+}
+main .right .top1{
+    display: flex;
+    align-items: center;
+    
+}
+.b h2{
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    margin-left: 14rem;
+}
+.b ul{
+    margin-top:8rem;
+    list-style: none;
+    line-height: 2.2rem;
+    margin-left: 14rem;
+}
+main .right .top1 img{
+    margin-left: 4rem;
+    filter: drop-shadow(12px 12px 12px rgb(158, 91, 91));
+}
+main .right .bottom1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 75%;
+    margin-top: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
